@@ -1,6 +1,6 @@
 ## Encoding a mesh as two DataFrames
 
-The input file in the .off format is converted to two DataFrames using the Convert_TIN_DataFrames.ipynb program.
+The input file in the .off format is converted to two DataFrames using the Convert_TIN_DataFrames_Morse_Spark.ipynb program.
 * Inputs:
   - a .off file representing a TIN, e.g., Canyon_Lake_Gorge_TX.off
 * Outputs:
@@ -24,7 +24,7 @@ The Compute_Forman_Morse_Spark.ipynb is used to compute the Forman gradient in a
   - a DataFrame storing critical simplices and simplex pairs in a mesh.
  
 ### Two auxiliary graphs 
-The Compute_Two_Graphs.ipynb is used to compute two auxiliary graphs from the Forman gradient.
+The Compute_Two_Graphs_Morse_Spark.ipynb is used to compute two auxiliary graphs from the Forman gradient.
 * Inputs:
   - the DataFrames $DF_V$ and $DF_T$
 * Outputs:
