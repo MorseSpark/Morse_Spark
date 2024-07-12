@@ -24,7 +24,7 @@ The Compute_Forman_Morse_Spark.ipynb is used to compute the Forman gradient in a
   - a DataFrame storing critical simplices and simplex pairs in a mesh.
  
 ### Two auxiliary graphs 
-The Code_submit_Compute_Two_Graphs.ipynb is used to compute two auxiliary graphs from the Forman gradient.
+The Compute_Two_Graphs.ipynb is used to compute two auxiliary graphs from the Forman gradient.
 * Inputs:
   - the DataFrames $DF_V$ and $DF_T$
 * Outputs:
