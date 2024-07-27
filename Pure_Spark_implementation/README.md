@@ -33,7 +33,7 @@ The Compute_Two_Graphs_Pure_Spark.ipynb is used to compute two auxiliary graphs 
 ### Morse 2-manifolds
 The Compute_2-manifolds_Pure_Spark.ipynb is used to compute Morse 2-manifolds.
 * Inputs:
-  - the graph $G_VE$ or $G_ET$
+  - the graph $G_{VE}$ or $G_{ET}$
 * Outputs:
   - ascending or descending 2-manifolds, which are represented by a DataFrame called $result\\_{con}$
 
