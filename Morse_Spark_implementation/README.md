@@ -40,6 +40,6 @@ The Compute_2-manifolds_Morse_Spark.ipynb is used to compute Morse 2-manifolds.
 ### Morse 1-manifolds
 The Compute_1-manifolds_Morse_Spark.ipynb is used to compute Morse 1-manifolds.
 * Inputs:
-  - the graph $G_VE$ or $G_ET$
+  - the graph $G_{VE}$ or $G_{ET}$
 * Outputs:
   - ascending or descending 1-manifolds, which are represented by a DataFrame.
